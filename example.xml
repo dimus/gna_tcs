@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<root
+  xmlns="http://gnapartnership.org/schemas/0_1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dwc="http://rs.tdwg.org/dwc/dwcore/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xsi:schemaLocation="http://gnapartnership.org/schemas/0_1 http://gnapartnership.org/gna_tcs/gni_v_0_1.xsd">
 <DataSet>
   <MetaData>
     <Simple>Metadata information</Simple>

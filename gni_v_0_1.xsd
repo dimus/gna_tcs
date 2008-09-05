@@ -26,7 +26,8 @@
             <xs:element name="HarvestingFrequencyInDays" type="xs:integer">
               <xs:annotation>
                 <xs:documentation>Indicates interval in days between attempts to harvest data contained in the data set</xs:documentation>
-             </xs:annotation>
+              </xs:annotation>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="GniNameDetails">
