@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root
-  xmlns="http://gnapartnership.org/schemas/0_1"
+<DataSet
+  xmlns="http://www.tdwg.org/schemas/tcs/1.01"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dwc="http://rs.tdwg.org/dwc/dwcore/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xsi:schemaLocation="http://gnapartnership.org/schemas/0_1 http://gnapartnership.org/gna_tcs/gni_v_0_1.xsd">
-<DataSet>
+  xsi:schemaLocation="http://www.tdwg.org/schemas/tcs/1.01 http://gnapartnership.org/gna_tcs/tcs_gni_v_0_1.xsd">
   <MetaData>
     <Simple>Metadata information</Simple>
     <MetaDataDetailed>
@@ -16,7 +15,7 @@
     </MetaDataDetailed>
   </MetaData>
   <TaxonNames>
-    <TaxonName>
+    <TaxonName id = "1" nomenclaturalCode = "Botanical">
       <Simple>Citrus medica L.</Simple> 
       <Rank>Species</Rank>
       <ProviderSpecificData>
@@ -25,7 +24,7 @@
         <GlobalUniqueIdentifier>urn:lsid:example.org:name:d74fcd5e-abc1-d02b-9a4a-1234567890:eo2008</GlobalUniqueIdentifier> 
       </ProviderSpecificData>
     </TaxonName>
-    <TaxonName>
+    <TaxonName id = "2" nomenclaturalCode = "Botanical">
       <Simple>Citrus X paradisi Macfad. (pro sp.)</Simple> 
       <Rank>Species</Rank>
       <ProviderSpecificData>
@@ -34,7 +33,7 @@
         <GlobalUniqueIdentifier>urn:lsid:example.org:name:d74fcd5e-abc1-d02b-9a4a-2234567890:eo2008</GlobalUniqueIdentifier> 
       </ProviderSpecificData>
     </TaxonName>
-    <TaxonName>
+    <TaxonName id = "3" nomenclaturalCode = "Botanical">
       <Simple>Citrus reticulata Blanco</Simple> 
       <Rank>Species</Rank>
       <ProviderSpecificData>
@@ -43,7 +42,7 @@
         <GlobalUniqueIdentifier>urn:lsid:example.org:name:d74fcd5e-abc1-d02b-9a4a-2234567890:eo2008</GlobalUniqueIdentifier> 
       </ProviderSpecificData>
     </TaxonName>
-    <TaxonName>
+    <TaxonName id = "4" nomenclaturalCode = "Botanical">
       <Simple>Citrus sinensis (L.) Osbeck</Simple> 
       <Rank>Species</Rank>
       <ProviderSpecificData>

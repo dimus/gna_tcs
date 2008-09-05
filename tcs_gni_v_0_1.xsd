@@ -24,7 +24,7 @@
 									<xs:documentation>A summary of the metadata for this document.</xs:documentation>
 								</xs:annotation>
 							</xs:element>
-							<xs:element name="MetaDataDetailed" type="gn:GniSourceMetadata" minOccurs="0">
+							<xs:element name="MetaDataDetailed" type="PlaceHolderType" minOccurs="0">
 								<xs:annotation>
 									<xs:documentation>Metadata about the repository. </xs:documentation>
 								</xs:annotation>
@@ -75,7 +75,7 @@
 					<xs:documentation> The taxonomic rank of this name. Either as a string or as a code for a recognise rank or both. The code attribute is a TCS signature field. </xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="ProviderSpecificData" type="gn:GniNameDetails" minOccurs="0">
+			<xs:element name="ProviderSpecificData" type="PlaceHolderType" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>Mechanism to allow for the extension of the schema for specific applications.</xs:documentation>
 				</xs:annotation>
