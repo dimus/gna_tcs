@@ -32,11 +32,6 @@
     </xs:complexType>
     <xs:complexType name="GniNameDetails">
         <xs:sequence>
-            <xs:element minOccurs="0" ref="dc:identifier">
-                <xs:annotation>
-                    <xs:documentation>Unique data source identifier of the record (often id from the data source database). Identifier is used to be included into data source uri templates.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element minOccurs="0" ref="dc:source">
                 <xs:annotation>
                     <xs:documentation>URL to a human readeable web page about the name. </xs:documentation>
