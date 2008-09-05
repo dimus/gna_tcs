@@ -6,7 +6,7 @@
     xmlns:gn="http://gnapartnership.org/schemas/0_1"
     elementFormDefault="qualified" 
     attributeFormDefault="unqualified">
-    <xs:import namespace="http://gnapartnership.org/schemas/0_1" schemaLocation="file:///Users/dimus/workspace/gna_tcs/gni_v_0_1.xsd"/>
+    <xs:import namespace="http://gnapartnership.org/schemas/0_1" schemaLocation="http://gnapartnership.org/gna_tcs/gni_v_0_1.xsd"/>
 	<xs:element name="DataSet">
 		<xs:annotation>
 			<xs:documentation>Root element of the data set.</xs:documentation>
