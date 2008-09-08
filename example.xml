@@ -18,7 +18,7 @@
     <MetaDataDetailed>
       <dc:title>Metadata title</dc:title>
       <dc:description>Metadata description</dc:description> 
-      <LogoURL>http://examle.org/logo_ufl.gif</LogoURL>
+      <gn:LogoURL>http://example.org/logo_ufl.gif</gn:LogoURL>
       <HarvestingFrequencyInDays>14</HarvestingFrequencyInDays>
     </MetaDataDetailed>
   </MetaData>

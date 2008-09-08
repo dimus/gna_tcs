@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
+    xmlns="http://gnapartnership.org/schemas/0_1"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:dwc="http://rs.tdwg.org/dwc/dwcore/" 
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
