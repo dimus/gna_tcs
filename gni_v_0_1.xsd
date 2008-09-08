@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
     targetNamespace="http://gnapartnership.org/schemas/0_1"
-    xmlns:gn="http://gnapartnership.org/schemas/0_1"
+    xmlns="http://gnapartnership.org/schemas/0_1"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:dwc="http://rs.tdwg.org/dwc/dwcore/" 
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
@@ -30,8 +30,8 @@
                     <xs:documentation>Description may include but is not limited to: an abstract, table of contents, reference to a graphical representation of content or a free-text account of the content.</xs:documentation>
                 </xs:annotation>
             </xs:element>
-            <xs:element ref="gn:LogoURL" minOccurs="0"/>
-            <xs:element ref="gn:HarvestingFrequencyInDays" minOccurs="0"/>
+            <xs:element ref="LogoURL" minOccurs="0"/>
+            <xs:element ref="HarvestingFrequencyInDays" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="GniNameDetails">
