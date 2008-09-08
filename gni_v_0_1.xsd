@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
+    targetNamespace="http://gnapartnership.org/schemas/0_1"
     xmlns="http://gnapartnership.org/schemas/0_1"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:dwc="http://rs.tdwg.org/dwc/dwcore/" 
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
-    targetNamespace="http://gnapartnership.org/schemas/0_1">
+    >
     <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd"/>
     <xs:import namespace="http://rs.tdwg.org/dwc/dwcore/" schemaLocation="http://rs.tdwg.org/dwc/tdwg_dw_core.xsd"/>
     <xs:complexType name="GniSourceMetadata">
@@ -33,7 +34,7 @@
     </xs:complexType>
     <xs:complexType name="GniNameDetails">
         <xs:sequence>
-            <xs:element minOccurs="2" maxOccurs="unbounded" ref="dc:source">
+            <xs:element minOccurs="0" ref="dc:source">
                 <xs:annotation>
                     <xs:documentation>URL to a human readeable web page about the name. </xs:documentation>
                 </xs:annotation>
