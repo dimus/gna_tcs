@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
     targetNamespace="http://gnapartnership.org/schemas/tcs/1.01" 
-    xmlns="http://www.tdwg.org/schemas/tcs/1.01" 
+    xmlns="http://gnapartnership.org/schemas/tcs/1.01" 
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:gn="http://gnapartnership.org/schemas/0_1"
     elementFormDefault="qualified" 
