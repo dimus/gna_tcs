@@ -16,10 +16,10 @@
   <MetaData>
     <Simple>Metadata information</Simple>
     <MetaDataDetailed>
-      <dc:title>Metadata title</dc:title>
+      <dc:tile>Metadata title</dc:tile>
       <dc:description>Metadata description</dc:description> 
       <LogoURL>http://example.org/logo_ufl.gif</LogoURL>
-      <HarvestingFrequencyInDays>14</HarvestingFrequencyInDays>
+      <!-- <HarvestingFrequencyInDays>14</HarvestingFrequencyInDays> -->
     </MetaDataDetailed>
   </MetaData>
   <TaxonNames>

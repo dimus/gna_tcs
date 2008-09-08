@@ -124,4 +124,5 @@
 			</xs:enumeration>
 		</xs:restriction>
 	</xs:simpleType>
+	<xs:simpleType name="LogoURL"><xs:restriction base="xs:string"></xs:restriction></xs:simpleType>
 </xs:schema>
