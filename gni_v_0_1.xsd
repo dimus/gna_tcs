@@ -36,12 +36,22 @@
     </xs:complexType>
     <xs:complexType name="GniNameDetails">
         <xs:sequence>
-            <xs:element minOccurs="1" ref="dc:source">
+            <xs:element ref="dwc:Kingdom" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>The kingdom to which the scientific name belongs.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element ref="dc:source" minOccurs="0">
                 <xs:annotation>
                     <xs:documentation>URL to a human readeable web page about the name. </xs:documentation>
                 </xs:annotation>
+            </xs:element>            
+            <xs:element ref="dc:identifier" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>Unique data source identifier of the record (often id from the data source database). Identifier is used to be included into data source uri templates.</xs:documentation>
+                </xs:annotation>
             </xs:element>
-            <xs:element minOccurs="1" ref="dwc:GlobalUniqueIdentifier">
+            <xs:element ref="dwc:GlobalUniqueIdentifier" minOccurs="0">
                 <xs:annotation>
                     <xs:documentation>Global unique data source identifier of the record (often LSID).</xs:documentation>
                 </xs:annotation>
