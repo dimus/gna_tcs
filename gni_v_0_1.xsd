@@ -33,7 +33,7 @@
     </xs:complexType>
     <xs:complexType name="GniNameDetails">
         <xs:sequence>
-            <xs:element minOccurs="0" ref="dc:source">
+            <xs:element minOccurs="2" maxOccurs="unbounded" ref="dc:source">
                 <xs:annotation>
                     <xs:documentation>URL to a human readeable web page about the name. </xs:documentation>
                 </xs:annotation>
