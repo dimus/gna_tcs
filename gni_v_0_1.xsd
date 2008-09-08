@@ -8,7 +8,7 @@
     >
     <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd"/>
     <xs:import namespace="http://rs.tdwg.org/dwc/dwcore/" schemaLocation="http://rs.tdwg.org/dwc/tdwg_dw_core.xsd"/>
-    <xs:element name="LogoURL" type="xs:string">
+    <xs:element name="LogoURL" type="xs:anyURI">
         <xs:annotation>
             <xs:documentation>A URL to a small logo of the entity.</xs:documentation>
         </xs:annotation>
