@@ -6,8 +6,8 @@
     xmlns:gn="http://gnapartnership.org/schemas/0_1"
     elementFormDefault="qualified" 
     attributeFormDefault="unqualified">
-    <xs:import namespace="http://gnapartnership.org/schemas/0_1" schemaLocation="http://gnapartnership.org/gna_tcs/gni_v_0_1.xsd"/>   
     <xs:import namespace="http://www.tdwg.org/schemas/tcs/1.01" schemaLocation="http://www.tdwg.org/standards/117/files/TCS101/v101.xsd"/>
+    <xs:import namespace="http://gnapartnership.org/schemas/0_1" schemaLocation="http://gnapartnership.org/gna_tcs/gni_v_0_1.xsd"/>   
 	<xs:element name="DataSet">
 		<xs:annotation>
 			<xs:documentation>Root element of the data set.</xs:documentation>
