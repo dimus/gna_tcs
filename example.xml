@@ -18,8 +18,8 @@
     <MetaDataDetailed>
       <dc:title>Metadata title</dc:title>
       <dc:description>Metadata description</dc:description> 
-      <gn:LogoURL>http://examle.org/logo_ufl.gif</gn:LogoURL>
-      <gn:HarvestingFrequencyInDays>14</gn:HarvestingFrequencyInDays>
+      <LogoURL>http://examle.org/logo_ufl.gif</LogoURL>
+      <HarvestingFrequencyInDays>14</HarvestingFrequencyInDays>
     </MetaDataDetailed>
   </MetaData>
   <TaxonNames>
